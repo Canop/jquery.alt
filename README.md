@@ -32,7 +32,7 @@ Event handling:
 
 We need `on` and `off` to ensure
 
-- methods working for collections of any size
+- methods working the same for collections of any size (including the empty ones)
 - delegation
 
 Data:
