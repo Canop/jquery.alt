@@ -6,7 +6,7 @@ In this document we'll try to define what should be in a "jquery alternative" fo
 
 Globally we need
 
-- expressivity (including memory chaining)
+- expressivity (including chaining)
 - efficiency (jQuery is too slow)
 - memory safety
 
