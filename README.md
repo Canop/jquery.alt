@@ -2,7 +2,7 @@ With promises, fetch, querySelectorAll, weakmap, arrow functions, etc. many old 
 
 But there are still important points missed by all the 20 LOC "alternatives", which make them much too verbose to use and unable to do anything advanced.
 
-In this document we'll try to define what should be in a "jquery alternative" for today's browsers.
+In this document we'll try to define what should be in a "jquery alternative" for today's browsers, and for when a framework like mithril or Angular doesn't push it out of the landscape.
 
 Globally we need
 
