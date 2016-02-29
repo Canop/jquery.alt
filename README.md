@@ -1,4 +1,4 @@
-With promises, fetch, querySelectorAll, weakmap, arrow functions, etc. many old features of jquery are just old. Usages changed too, nobody should still use data-attributes or XML for example.
+With promises, `fetch`, `querySelectorAll`, weak maps, arrow functions, etc. many old features of jquery are just old. Usages changed too, nobody should still use data-attributes or XML for example.
 
 But there are still important points missed by all the 20 LOC "alternatives", which make them much too verbose to use and unable to do anything advanced.
 
@@ -16,14 +16,14 @@ Element wrapping:
 In order to provide all the wanted features, including function chaining, there are two general solutions:
 
 - add many functions to native DOM objet prototypes
-- wrap DOM elements (as in done in jQuery)
+- wrap DOM elements (as is done in jQuery)
 
 This document will assume the second solution is chosen. This makes it easier to handle the same way empty, one-element and multi-elements collections.
 
 Ajax:
 =====
 
-The starting point being window.fetch, there's nothing generic missing.
+The starting point being `window.fetch`, there's nothing generic missing.
 
 It might be interesting to have a small REST/JSON dedicated extension but it's probably off scope.
 
