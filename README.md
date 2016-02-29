@@ -40,7 +40,7 @@ Data:
 
 The only important use is the ability to map data to DOM elements in a way ensuring there's no memory leak or data transformation.
 
-Assuming there's no point in calling the `data` function on collections of more than one element, and that we're not interested in magical parsing of data attributes, it's easy with WeakMap and Map.
+Assuming there's no point in calling the `data` function on collections of more than one element, and that we're not interested in magical parsing of data attributes, it's [easy](https://github.com/Canop/miaou/blob/master/src%2Fmain-js%2Fjquery.dat.js) with WeakMap and Map.
 
 SVG:
 ====
