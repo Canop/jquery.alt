@@ -40,7 +40,7 @@ Data:
 
 The only important use is the ability to map data to DOM elements in a way ensuring there's no memory leak or data transformation.
 
-Assuming there's no point in calling the data function on collections of more than one element, and that we're not interested in magical parsing or data attributes, it's easy with WeakMap and Map.
+Assuming there's no point in calling the `data` function on collections of more than one element, and that we're not interested in magical parsing of data attributes, it's easy with WeakMap and Map.
 
 SVG:
 ====
@@ -50,7 +50,7 @@ SVG element manipulation should be done as easily as for other elements (wheneve
 each, map, reduce:
 ==================
 
-A short function to get an array from any collection (including the empty or one-element ones) should be enough today.
+A short function to get an array from any collection (including the empty or one-element ones) should be enough today. The wrapping object should also act as a decorator for ease of use.
 
 Object initialization:
 ======================
