@@ -79,4 +79,4 @@ Dimensions:
 Traversing:
 ===========
 
-Most jQuery functions are useful here. We especially need the find, closest, filter, end, eq, not, children functions.
+Most jQuery functions are useful here. We especially need the find, closest, filter, end, eq, not, children functions. We'll avoid parsing the selector by just using the querySelectorAll function. In order to provide `:visible` filtering a specific filtering function will probably be used.
